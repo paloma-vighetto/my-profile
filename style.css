@@ -1,0 +1,125 @@
+/* Color and fonts */
+
+body {
+	background-color: #0f3057
+	color: #008891;
+	font-family: 'Spectral SC', serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: 'Questrial', sans-serif;
+	color: #00587a;
+	font-weight: 100;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;	
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bolder;	
+}
+
+a {
+text-decoration: none;
+color: #cce5ff;
+font-weight: bolder;
+}
+a:hover {
+color: #fefeff;
+}
+
+i {
+	color: #00587a;
+}
+
+
+
+/* Custom design with class */
+
+#banner {
+	background-image: url("images/image-ocean.jpg");
+	background-size: cover;
+}
+
+.container {
+	width:900px;
+	margin: 10px auto;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 620px;
+	}
+}
+@media (max-width: 500px) {
+
+	.container {
+		width: 485px;
+	}
+}
+
+#introduction {
+	background: #cce5ff;
+	padding: 30px;
+	margin: 100px;
+	box-shadow: 0px 10px 50px rgba(0,0,0,.5);
+	border-radius: 4px;
+}
+.card-white {
+	background: #cce5ff;
+	padding: 30px;
+	margin: 100px;
+	box-shadow: 0px 10px 40px rgba(0,0,0,.37);
+	border-radius: 4px;
+}
+.img-circle {
+	border-radius: 50%
+}
+#leader {
+	box-shadow: 0px 5px 5px rgba( 0,0,0,.2)
+}
+
+.btn-blue {
+background: #016268;
+padding: 5px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.btn-blue:hover {
+	background-color: #003c40;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: #016268;
+}
+
+.list-inline i:hover {
+	font-size: 40px;
+	color: #003c40;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+
+
